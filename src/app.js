@@ -16,7 +16,7 @@ const data = getData(
         <td>${user.name}</td>
         <td>${user.username}</td>
         <td>${user.email}</td>
-        <td>${user.address.street},${user.address.suite},${user.address.city}</td>
+        <td>${user.address.street}, ${user.address.suite}, ${user.address.city}</td>
         <td>${user.company.name}</td>
       </tr>`;
     });
