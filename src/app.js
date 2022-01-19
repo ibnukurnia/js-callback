@@ -8,7 +8,6 @@ const data = getData(
   (success) => {
     const users = JSON.parse(success);
     let tableData = "";
-    console.log(users);
     users.forEach((user) => {
       tableData += `
       <tr>
